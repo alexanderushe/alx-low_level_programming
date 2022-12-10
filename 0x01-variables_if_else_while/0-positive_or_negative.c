@@ -1,11 +1,11 @@
-/**
- * main - main block
- * Return: 0
- */
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
+/**
+ * main main - block 
+ * Description: Get a random number
+ * Return: 0
+ */
 int main(void)
 
 {
