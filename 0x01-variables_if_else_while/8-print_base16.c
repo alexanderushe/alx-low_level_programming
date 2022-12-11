@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main
+ * main - main block
+ * Description: hexadecimal
  * Return: 0
  */
 int main(void)
