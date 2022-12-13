@@ -6,40 +6,41 @@
  */
 int main(void)
 {
-	int c = 0;
-	int a_b;
-	int b_b;
+	int a = 0;
+	int b;
+	int c;
 
+	int a2 = 0;
+	int b2;
 	int c2;
-	int a_b2;
-	int b_b2;
 
-	while (c <= 98)
+	while (a <= 98)
 	{
-		a_b = (c / 10 + '0');
-		b_b = (c % 10 + '0');
-		c2 = 0;
-		while (c2 <= 99)
+		b = (a /10 + '0');
+		c = (a % 10 + '0');
+		a2 = 0;
+		while (a <= 99)
 		{
-			a_b2 = (c2 / 10 + '0');
-			b_b2 = (c2 % 10 + '0');
+			b2 = (a2 / 10 + '0');
+			c2 = (a2 % 10 + '0');
 
-			if (c < c2)
+			if (a < a2)
 			{
-				putchar(a_b);
-				putchar(b_b);
+				putchar(b);
+				putchar(c);
 				putchar(' ');
-				putchar(a_b2);
-				putchar(b_b2;
-						if (c != 98)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+				putchar(b2);
+				putchar(c2);
+
+				if(a != 98)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			c2++;
+			a2++;
 		}
-		c++;
+		a++;
 	}
 	putchar('\n');
 	return (0);
