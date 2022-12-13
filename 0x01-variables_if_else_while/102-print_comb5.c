@@ -31,11 +31,11 @@ int main(void)
 				putchar(' ');
 				putchar(a_b2);
 				putchar(b_b2;
-				if (c != 98)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+						if (c != 98)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 			}
 			c2++;
 		}
