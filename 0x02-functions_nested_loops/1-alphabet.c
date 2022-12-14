@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print alphabet - Entry point
+ * Description: function that prints alpahbetical letters
  * Return:0
  */
 
@@ -14,5 +15,4 @@ void print_alphabet(void)
 		a++;
 	}
 	_putchar('\n');
-	return (0);
 }
