@@ -1,1 +1,1 @@
-0x03 debuggin
+3. print remaining days
