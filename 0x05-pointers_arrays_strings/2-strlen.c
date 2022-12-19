@@ -8,13 +8,8 @@
 
 int _strlen(char *s)
 {
-	int i = 1, sum = 0;
-	char pl = s[0];
+	int i;
 
-	while (pl != '\0')
-	{
-		sum++;
-		pl = s[i++];
-	}
+	for (i = 0; s[i] != '\0' ; i++)
 		return (i);
 }
