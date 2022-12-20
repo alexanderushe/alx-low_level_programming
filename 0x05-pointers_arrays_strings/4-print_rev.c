@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_rev - prints string in revere
  * @s: pointer to string
@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 	int i = 0;
 
-	while(s[i])
+	while (s[i])
 	{
 		i++;
 
