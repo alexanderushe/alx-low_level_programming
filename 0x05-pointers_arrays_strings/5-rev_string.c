@@ -13,10 +13,8 @@ void rev_string(char *s)
 	char c;
 
 	while (*(s + 1) != '\0')
-	{
 		a += 1;
-	}
-		a -= 1;
+	a -= 1;
 
 		while (b < a)
 		{
