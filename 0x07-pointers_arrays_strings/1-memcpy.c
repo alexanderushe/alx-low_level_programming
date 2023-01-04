@@ -7,15 +7,14 @@
  * Return: copied memory
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+void *_memcpy(void *dest, const void *src, size_t n)
 {
-	int r = 0;
-	int i = n;
+	unsigned int index;
+	unsigned char *destination = dest;
+	const unsigned char *source = src;
 
-	for (; r < i; r++)
-	{
-		dest[r] = src[r];
-		n--;
-	}
+	for (index = 0; index < n; index++)
+		destination[index] = source[index];
+
 	return (dest);
 }
