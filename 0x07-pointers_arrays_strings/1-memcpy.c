@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** _memcpy - function that copies memory
+/** 
+ * _memcpy - function that copies memory
  * @dest: stored memory
  * @src: copied memory
  * @n: number of bytes
@@ -14,7 +15,9 @@ void *_memcpy(void *dest, const void *src, size_t n)
 	const unsigned char *source = src;
 
 	for (index = 0; index < n; index++)
+	{
 		destination[index] = source[index];
+	}
 
 	return (dest);
 }
