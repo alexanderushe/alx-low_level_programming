@@ -3,9 +3,9 @@
 
 /**
  * _strchr - entry point
- * @s: input
- * @c: input
- * return: 0
+ * @s: input to be searched
+ * @c: input to be located
+ * Return: pointer to the first occurence
  */
 
 char *_strchr(char *s, char c)
