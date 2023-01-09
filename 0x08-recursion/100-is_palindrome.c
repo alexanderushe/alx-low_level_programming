@@ -9,6 +9,8 @@
 int last_index(char *s)
 {
 	if (*s > '\0')
+		int n;
+
 		n += last_index(s + 1) + 1;
 	return (n);
 }
