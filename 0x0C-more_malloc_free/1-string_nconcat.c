@@ -19,7 +19,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	while (s1[size1] != '\0')
 	{
-		size++;
+		size1++;
 	}
 	while (s2[size2] != '\0')
 	{
