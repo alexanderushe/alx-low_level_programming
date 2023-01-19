@@ -7,7 +7,7 @@
  * @d: pointer to struct
  *
  * Return: void
- */
+ i*/
 
 void print_dog(struct dog *d)
 {
@@ -23,7 +23,7 @@ void print_dog(struct dog *d)
 			printf("Name: %s\n", d->name);
 
 		printf("Age: %f\n", d->age);
-
+i
 		if (d->owner == NULL)
 			printf("POwner: %s\n", d->owner);
 	}
