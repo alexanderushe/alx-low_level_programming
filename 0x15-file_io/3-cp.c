@@ -35,8 +35,8 @@ char *create_buffer(char *file)
 void close_file(int fd)
 {
 	int c;
-	c = close(fd);
 
+	c = close(fd);
 	if (c == -1)
 	{
 		dprintf(STDERR_FILENO, "Errror: Can't close fd %d\n", fd);
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 	}
 
 	buffer = create_buffer(argv[2]);
-	from = open(argv[1], O_ORDONLY);
+	from = open(argv[1], O_RDONLY);
 	r = read(from, buffer, 1024);
 	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
