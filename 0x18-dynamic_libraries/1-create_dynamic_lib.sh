@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Compile all .c files into object files
+# Compile all .c files into object files.
 if gcc *.c -c -fPIC; then
     echo "Compiled .c files to object files successfully."
 
