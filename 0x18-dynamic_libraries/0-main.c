@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-    printf("%d\n", _strlen("My Dyn lib."));
+    printf("%d\n", _strlen("My Dyn lib"));
     return (EXIT_SUCCESS);
 }

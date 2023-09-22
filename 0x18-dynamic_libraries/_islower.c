@@ -5,7 +5,7 @@
  * @c: first parameter
  *
  * Description: prints all lowercase letters
- * Return: Always(0)..
+ * Return: Always(0).
  */
 
 int _islower(int c)
